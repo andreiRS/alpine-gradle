@@ -21,4 +21,5 @@ RUN mkdir -p /gradle && mkdir -p /app
 VOLUME /gradle /app
 
 WORKDIR /app
-ENTRYPOINT gradle
+# Define default command.
+CMD ["bash"]
